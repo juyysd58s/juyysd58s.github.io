@@ -38,7 +38,7 @@ post:
     link: Ссылка на запись
     license_title: Информация об авторских правах
     license_content: 'Все записи на этом сайте защищены лицензией
-      <a href="%s" rel="external nofollow" target="_blank">%s</a> если не указано дополнительно.'
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> если не указано дополнительно.'
 
 page:
   totally: Всего
