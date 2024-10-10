@@ -88,7 +88,7 @@ rss:
 #since: 2015
 since: 2024
 # icon between year and author @Footer
-authoricon: heart
+authoricon: cog
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -233,11 +233,11 @@ social_icons:
 
   
 # reward
-reward_comment: 人该是自己生活的主宰，而不是别人手里的行货
-alipay: /images/reward_image/alipay-reward-image.jpg
+reward_comment: #人该是自己生活的主宰，而不是别人手里的行货
+alipay: #/images/reward_image/alipay-reward-image.jpg
+
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
 avatar: /images/avatar.png
 
 # Table Of Contents in the Sidebar
@@ -268,10 +268,7 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  #display: post
-  #display: always
-  display: hide
-  #display: remove
+  display: post
 
   # Sidebar offset from top menubar in pixels.
   offset: 12
@@ -317,14 +314,14 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+  updated_at: true
   categories: true
 
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -368,7 +365,7 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: true
+  enable: false
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -502,15 +499,15 @@ busuanzi_count:
   enable: false
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: 本站访问数
-  site_uv_footer: 人次
+  site_uv_header: 访问
+  site_uv_footer: 人
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: 本站总访问量
+  site_pv_header: 总访问
   site_pv_footer: 次
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: 本文总阅读量
+  page_pv_header: 总阅读
   page_pv_footer: 次
 
 
@@ -599,10 +596,10 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
-three_waves: false
+three_waves: true
 
 # canvas_lines
 canvas_lines: false
