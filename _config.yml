@@ -177,7 +177,7 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: Roboto Slab
+    family:
 
   # Font settings for posts
   # Fallback to `global` font settings.
@@ -190,13 +190,13 @@ font:
   # The `size` option use `px` as unit
   logo:
     external: true
-    family: Lobster Two
+    family:
     size:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: PT Mono
+    family:
     size:
 
 
